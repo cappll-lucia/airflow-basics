@@ -8924,3 +8924,17 @@ SyntaxError: invalid syntax
 [2025-05-06T20:22:11.350+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:22:11.350+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2025-05-06T20:22:11.359+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:22:11.359+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2025-05-06T00:00:00+00:00, run_after=2025-05-07T00:00:00+00:00
 [2025-05-06T20:22:11.366+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.292 seconds
+[2025-05-06T20:22:41.533+0000] {processor.py:154} INFO - Started process (PID=96135) to work on /opt/airflow/dags/user_processing.py
+[2025-05-06T20:22:41.534+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2025-05-06T20:22:41.534+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:22:41.534+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2025-05-06T20:22:41.735+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2025-05-06T20:22:41.806+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:22:41.806+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-05-06T20:22:41.816+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:22:41.816+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2025-05-06T00:00:00+00:00, run_after=2025-05-07T00:00:00+00:00
+[2025-05-06T20:22:41.823+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.292 seconds
+[2025-05-06T20:23:11.975+0000] {processor.py:154} INFO - Started process (PID=96202) to work on /opt/airflow/dags/user_processing.py
+[2025-05-06T20:23:11.976+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2025-05-06T20:23:11.976+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:23:11.976+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2025-05-06T20:23:12.158+0000] {processor.py:766} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /opt/airflow/dags/user_processing.py
+[2025-05-06T20:23:12.215+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:23:12.215+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-05-06T20:23:12.223+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:23:12.223+0000] {dag.py:3340} INFO - Setting next_dagrun for user_processing to 2025-05-06T00:00:00+00:00, run_after=2025-05-07T00:00:00+00:00
+[2025-05-06T20:23:12.230+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/user_processing.py took 0.256 seconds

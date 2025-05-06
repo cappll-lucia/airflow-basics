@@ -1549,3 +1549,10 @@ NameError: name 'u' is not defined
 [2025-05-06T20:22:36.491+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:22:36.491+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2025-05-06T20:22:36.501+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:22:36.501+0000] {dag.py:3340} INFO - Setting next_dagrun for producer to 2025-05-06T00:00:00+00:00, run_after=2025-05-07T00:00:00+00:00
 [2025-05-06T20:22:36.510+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dataset_management_producer.py took 0.066 seconds
+[2025-05-06T20:23:06.960+0000] {processor.py:154} INFO - Started process (PID=96192) to work on /opt/airflow/dags/dataset_management_producer.py
+[2025-05-06T20:23:06.961+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dataset_management_producer.py for tasks to queue
+[2025-05-06T20:23:06.961+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:23:06.961+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dataset_management_producer.py
+[2025-05-06T20:23:06.972+0000] {processor.py:766} INFO - DAG(s) dict_keys(['producer']) retrieved from /opt/airflow/dags/dataset_management_producer.py
+[2025-05-06T20:23:06.988+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:23:06.988+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-05-06T20:23:06.998+0000] {logging_mixin.py:120} INFO - [2025-05-06T20:23:06.998+0000] {dag.py:3340} INFO - Setting next_dagrun for producer to 2025-05-06T00:00:00+00:00, run_after=2025-05-07T00:00:00+00:00
+[2025-05-06T20:23:07.007+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dataset_management_producer.py took 0.048 seconds
