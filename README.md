@@ -1,9 +1,6 @@
 # basics-airflow
 
-This repository contains example DAGs for learning Apache Airflow. It focuses on two core use cases:
-
-1. A simple **ETL pipeline** using API + PostgreSQL
-2. A **producer/consumer** pattern using the Dataset feature introduced in Airflow 2.4+
+This repository contains introductory Apache Airflow DAGs that demonstrate core concepts such as scheduling, datasets, sensors, Python tasks, and data pipelines with PostgreSQL and external APIs.
 
 ---
 
